@@ -1,0 +1,1480 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_63151</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>560</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_63151</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>560</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3288717|dbj|AB015870.1|</Hit_id>
+  <Hit_def>Vitis vinifera gVvPAL1 gene for phenylalanine ammonia-lyase, partial cds</Hit_def>
+  <Hit_accession>AB015870</Hit_accession>
+  <Hit_len>1938</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>1011.17</Hsp_bit-score>
+      <Hsp_score>1120</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>351</Hsp_hit-from>
+      <Hsp_hit-to>910</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>560</Hsp_identity>
+      <Hsp_positive>560</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>560</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAAGGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAAGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|147837644|emb|AM464582.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X175987.12, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM464582</Hit_accession>
+  <Hit_len>24533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>902.971</Hsp_bit-score>
+      <Hsp_score>1000</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>5261</Hsp_hit-from>
+      <Hsp_hit-to>4700</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>538</Hsp_identity>
+      <Hsp_positive>538</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>562</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGG-AGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGYAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATGTTAAAAAAGTTTTTTTTTTTTTTTTTTTTTTAATTTCAAAAAAAAACTTAAAAGCGCTTTTAAAASTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||  |  ||| |||||||||||||    |||||    |||| ||  ||||||||||||||||||| ||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|147776954|emb|AM457060.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X186582.7, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM457060</Hit_accession>
+  <Hit_len>8206</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>898.462</Hsp_bit-score>
+      <Hsp_score>995</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>2137</Hsp_hit-from>
+      <Hsp_hit-to>2701</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>540</Hsp_identity>
+      <Hsp_positive>540</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>565</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTT-TTTAAAATTTAAA---AAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGTGTGAATGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGACGTTTTAGGAGTGTTTTTTTTTTAAATAAAAATAAAAAATAAAAAATAAAAACTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACGTGAGTTAATGGCCACCGGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||||||||||||   ||||| | |||   ||||||  ||  ||||||||||||||||||||||||||||||||||| |||||||| ||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|147772517|emb|AM441888.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X053785.3, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM441888</Hit_accession>
+  <Hit_len>4439</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>859.69</Hsp_bit-score>
+      <Hsp_score>952</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>2390</Hsp_hit-from>
+      <Hsp_hit-to>1839</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>529</Hsp_identity>
+      <Hsp_positive>529</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTTGGTGGTGAAACGCTTACGATATCGCAGGTGGCGGCTATCGCGGGGCGGGAGGAGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTCTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATGTTTTAGGAGTG---TTTTTTTTTTAAAA--TAAAAATAAAA----ACTTAAAAGCGCTTTTAAAAGTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| |||||||| ||||||||||||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||   ||||||||||||||  |||||| ||||     ||||||||||||||||||| ||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|147839021|emb|AM464698.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X153564.4, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM464698</Hit_accession>
+  <Hit_len>12736</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>850.673</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>11430</Hsp_hit-from>
+      <Hsp_hit-to>10879</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>521</Hsp_identity>
+      <Hsp_positive>521</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTYGGTGGTGARACKCTTACGATATCGCARGTGGCGGCTATCGCSGGGCGGGAGGRGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGYGTGAAYGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAARGGCACCGAYAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTSAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGACGTTTTAGGAGTG---TTTTTTTWTTAAAA--WAAAAATAAAA----ACTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATASGTGAGTTAATGGCCACCRGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| || ||||| |||||||| |||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| |||||||||| ||||||||||||   ||||||| ||||||   ||||| ||||     ||||||||||||||||||||||||||||||||||  |||||||| ||||||| ||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123720411|emb|AM454986.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X175987.11, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM454986</Hit_accession>
+  <Hit_len>35724</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>838.951</Hsp_bit-score>
+      <Hsp_score>929</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>18829</Hsp_hit-from>
+      <Hsp_hit-to>19357</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>519</Hsp_identity>
+      <Hsp_positive>519</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTKGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTTACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTGAAAAGTGAAAAAATTACTTTTAATATTTCGCCAAGGAATACTTGATAGCCGATG----------------------TTAAAA---AAAAAAAA-------CTTAAAAGCRCTTTTAAAACTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||| ||||||||||||                      ||||||   ||||||||       ||||||||| ||||||||||||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>818.212</Hsp_bit-score>
+      <Hsp_score>906</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>30276</Hsp_hit-from>
+      <Hsp_hit-to>30803</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>514</Hsp_identity>
+      <Hsp_positive>514</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGTCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCAAGAGCAGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAATCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTGAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATG-----------------------------TTAAAAAAAAAA----ACTTAAAAGTGCTTTTAAAAGTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||                             ||||||||||||     |||||||| |||||||||| ||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123697331|emb|AM447197.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X051567.4, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM447197</Hit_accession>
+  <Hit_len>5995</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>831.738</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>2461</Hsp_hit-from>
+      <Hsp_hit-to>2993</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>517</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACKCTTACSATATCGCAGGTGGCGGCWATCGCYGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGYGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTGAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATG----------------------TTAAAA---AAAAAAAAAAAA---CTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACGTGAGTTAATGGCCACCGGTCAACTTTGACGTCTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||| ||||||||||||||||| ||||| |||||||||||||||||| ||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||                      ||||||   |||||||||| |   ||||||||||||||||||||||||||||||||||| |||||||| ||||||| |||||||||||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|371534676|gb|JN858963.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanine ammonia-lyase (PAL) gene, complete cds</Hit_def>
+  <Hit_accession>JN858963</Hit_accession>
+  <Hit_len>2579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>825.426</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>707</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>517</Hsp_identity>
+      <Hsp_positive>517</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>561</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGAAAGCCATTTGGATGAGGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATAGCAGTAGTTTGAATCACTTTTCAATAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATG----------------------TTAAAA---AAAAAAAAA------CTTAAAAGCGCTTTTAAAAGTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||| ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||                      ||||||   |||||||||      ||||||||||||||||||| ||||||||||||||| |||||||| ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|3288719|dbj|AB015871.1|</Hit_id>
+  <Hit_def>Vitis vinifera gVvPAL2 gene for phenylalanine ammonia-lyase, complete cds</Hit_def>
+  <Hit_accession>AB015871</Hit_accession>
+  <Hit_len>4359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>814.606</Hsp_bit-score>
+      <Hsp_score>902</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>548</Hsp_query-to>
+      <Hsp_hit-from>1821</Hsp_hit-from>
+      <Hsp_hit-to>2341</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>508</Hsp_identity>
+      <Hsp_positive>508</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>549</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAAC</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCAATCGCTGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTTATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATG----------------------TTAAAA---AAAAAAAAAAAA---CTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACGTGAGTTAATGGCCACCGGTCGAC</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||                      ||||||   |||||||||| |   ||||||||||||||||||||||||||||||||||| |||||||| ||||||| ||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|1417861613|gb|MH045991.1|</Hit_id>
+  <Hit_def>Vitis amurensis pal2 gene, complete cds</Hit_def>
+  <Hit_accession>MH045991</Hit_accession>
+  <Hit_len>2648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>793.867</Hsp_bit-score>
+      <Hsp_score>879</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>692</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>508</Hsp_identity>
+      <Hsp_positive>508</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>560</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGATGTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAAGGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGCAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACTTGATAGCCGATG----------------------TTAAAA---AAAAAAAAAAAAA--CTTAAAAGCGCTTTTAAAA--------------AACT---TCATGGCCACCAGTCAACTTTGACGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||                      ||||||   |||||||||| ||  |||||||||||||||||||              | ||   | | ||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123699204|emb|AM488688.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X230051.13, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM488688</Hit_accession>
+  <Hit_len>62427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>693.78</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>443</Hsp_query-to>
+      <Hsp_hit-from>59416</Hsp_hit-from>
+      <Hsp_hit-to>58974</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>419</Hsp_identity>
+      <Hsp_positive>419</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>443</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTCAAAAGTGAAAAAATTACTTTTAATATTTCGCAAAGGAATACCTGATAGCCGAT</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTTGGTGGTGAAACGCTTACGATATCGCAAGTGGCGGCTATCGCGGGGCGGGAGGAGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTMAAATTACTTTACAGTGGTTTTGGAAAATACATCATAAAAGCACTTTTGGAAAAATATTAGTAGTTTGAATCACTTTTGAAAAGTAAAAAAATTACTTTTAATATTTTGCAAAGGAATACTTGATAGCCGAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| |||||||| |||||||| |||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ||||||||||||||||||||| |||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||| ||||||||||||||||||||| |||||||||||| |||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>139.244</Hsp_bit-score>
+      <Hsp_score>153</Hsp_score>
+      <Hsp_evalue>7.42969e-28</Hsp_evalue>
+      <Hsp_query-from>444</Hsp_query-from>
+      <Hsp_query-to>560</Hsp_query-to>
+      <Hsp_hit-from>58907</Hsp_hit-from>
+      <Hsp_hit-to>58801</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>GTTTTAGGAGTGTTTTTTTTTTTTTAAAATTTAAAAAAAAAAGAATTCTTAAAAGCGCTTTTAAAACTCGGTGTTAGGATACCTGAGTTAA-GGCCACCAGTCAACTTTGACGTGTTA</Hsp_qseq>
+      <Hsp_hseq>GTTTTAGGAGTGTTTTTTTTTTT----AATTTAAAAAATA-------CTTAAAAGCGCTTTTAAAATTCGGTGTTAGGATACGTGAGTTAATGGCCACCAGTCAACTTTGGCGTGTTA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||    ||||||||||| |       ||||||||||||||||||| ||||||||||||||| |||||||| |||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1847862682|ref|XM_034855699.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase 1-like (LOC117934089), mRNA</Hit_def>
+  <Hit_accession>XM_034855699</Hit_accession>
+  <Hit_len>507</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.839</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>5.67674e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>507</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>323</Hsp_identity>
+      <Hsp_positive>323</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCAATCGCTGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGAGGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAATTACTTTACAATGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|147780166|emb|AM423265.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X087001.10, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM423265</Hit_accession>
+  <Hit_len>9218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>564.839</Hsp_bit-score>
+      <Hsp_score>625</Hsp_score>
+      <Hsp_evalue>5.67674e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>4316</Hsp_hit-from>
+      <Hsp_hit-to>4687</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>351</Hsp_identity>
+      <Hsp_positive>351</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTT-----CA-TAAAAGCACTTTTG--GAAAAAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGARTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGCGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAAATACTT---CGTGTTTTTTGAAAATATTTATAGGCATTAAAAGCATTTTTGAAGRAAAAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| |||||    ||| |||| ||||||| ||     || |||||||| |||||  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1690483873|gb|MK192303.1|</Hit_id>
+  <Hit_def>Vitis amurensis PAL protein mRNA, complete cds</Hit_def>
+  <Hit_accession>MK192303</Hit_accession>
+  <Hit_len>2130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>1.02638e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|2159559274|ref|NM_001397918.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanine ammonia-lyase (LOC100245997), mRNA</Hit_def>
+  <Hit_accession>NM_001397918</Hit_accession>
+  <Hit_len>2319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>1.02638e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>492</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122893275|gb|EF192469.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanin ammonia-lyase (PAL) mRNA, complete cds</Hit_def>
+  <Hit_accession>EF192469</Hit_accession>
+  <Hit_len>2133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>553.117</Hsp_bit-score>
+      <Hsp_score>612</Hsp_score>
+      <Hsp_evalue>1.02638e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>309</Hsp_identity>
+      <Hsp_positive>309</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1847858181|ref|XM_034853303.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117932192), mRNA</Hit_def>
+  <Hit_accession>XM_034853303</Hit_accession>
+  <Hit_len>2369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>5.31677e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>145</Hsp_hit-from>
+      <Hsp_hit-to>455</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAATGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTGCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|1847858177|ref|XM_034853301.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117932190), mRNA</Hit_def>
+  <Hit_accession>XM_034853301</Hit_accession>
+  <Hit_len>2429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>5.31677e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>170</Hsp_hit-from>
+      <Hsp_hit-to>480</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATTGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|1104658823|ref|XM_003633938.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase-like (LOC100240904), mRNA</Hit_def>
+  <Hit_accession>XM_003633938</Hit_accession>
+  <Hit_len>2427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>544.1</Hsp_bit-score>
+      <Hsp_score>602</Hsp_score>
+      <Hsp_evalue>5.31677e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>307</Hsp_identity>
+      <Hsp_positive>307</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTTGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTTACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1847860344|ref|XM_034854441.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117933076), mRNA</Hit_def>
+  <Hit_accession>XM_034854441</Hit_accession>
+  <Hit_len>2445</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.592</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>2.26075e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>179</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCTGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1847860340|ref|XM_034854438.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117933074), mRNA</Hit_def>
+  <Hit_accession>XM_034854438</Hit_accession>
+  <Hit_len>2531</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.592</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>2.26075e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>521</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCAATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTGCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1847858179|ref|XM_034853302.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117932191), mRNA</Hit_def>
+  <Hit_accession>XM_034853302</Hit_accession>
+  <Hit_len>2300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.592</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>2.26075e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCAATCGCTGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|1104658804|ref|XM_003633939.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase-like (LOC100854997), mRNA</Hit_def>
+  <Hit_accession>XM_003633939</Hit_accession>
+  <Hit_len>2370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>539.592</Hsp_bit-score>
+      <Hsp_score>597</Hsp_score>
+      <Hsp_evalue>2.26075e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>306</Hsp_identity>
+      <Hsp_positive>306</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGCGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1104658873|ref|XM_002268696.4|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100263160), mRNA</Hit_def>
+  <Hit_accession>XM_002268696</Hit_accession>
+  <Hit_len>2400</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>2.75415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>190</Hsp_hit-from>
+      <Hsp_hit-to>500</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGTCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCAAGAGCAGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|1104658812|ref|XR_077533.4|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase pseudogene (GVVPAL2), misc_RNA</Hit_def>
+  <Hit_accession>XR_077533</Hit_accession>
+  <Hit_len>2417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>2.75415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCAATCGCTGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1104505696|ref|XM_003635609.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase-like (LOC100853659), mRNA</Hit_def>
+  <Hit_accession>XM_003635609</Hit_accession>
+  <Hit_len>2185</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>2.75415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>118</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAATGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGCGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|349731487|emb|FQ394608.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AFA1YM09</Hit_def>
+  <Hit_accession>FQ394608</Hit_accession>
+  <Hit_len>2452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>535.083</Hsp_bit-score>
+      <Hsp_score>592</Hsp_score>
+      <Hsp_evalue>2.75415e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>499</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>305</Hsp_identity>
+      <Hsp_positive>305</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCAATCGCTGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|731422606|ref|XM_010663871.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase 1-like (LOC104881994), mRNA</Hit_def>
+  <Hit_accession>XM_010663871</Hit_accession>
+  <Hit_len>537</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>534.182</Hsp_bit-score>
+      <Hsp_score>591</Hsp_score>
+      <Hsp_evalue>9.61294e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>303</Hsp_identity>
+      <Hsp_positive>303</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAATGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGCGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  ||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|1847860338|ref|XM_034854437.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117933071), mRNA</Hit_def>
+  <Hit_accession>XM_034854437</Hit_accession>
+  <Hit_len>2386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.575</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.1711e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>474</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACTCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGTGTGAATGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|1847858950|ref|XM_034853702.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117932448), mRNA</Hit_def>
+  <Hit_accession>XM_034853702</Hit_accession>
+  <Hit_len>2376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>530.575</Hsp_bit-score>
+      <Hsp_score>587</Hsp_score>
+      <Hsp_evalue>1.1711e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>487</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>304</Hsp_identity>
+      <Hsp_positive>304</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGAGTGAACGCGAGCAGCGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|147834990|emb|AM460221.2|</Hit_id>
+  <Hit_def>Vitis vinifera contig VV78X085000.19, whole genome shotgun sequence</Hit_def>
+  <Hit_accession>AM460221</Hit_accession>
+  <Hit_len>15757</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.673</Hsp_bit-score>
+      <Hsp_score>586</Hsp_score>
+      <Hsp_evalue>1.1711e-145</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>367</Hsp_query-to>
+      <Hsp_hit-from>11872</Hsp_hit-from>
+      <Hsp_hit-to>11501</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>343</Hsp_identity>
+      <Hsp_positive>343</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>375</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTACTTTACAGTGGTTTTAGAAAATACTTC------ATAAAAGCACTTTTG--GAAAAAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGTCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCAGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCAATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCAGGCGTGAAGGCGAGCAGTGATTGGGTGATGGAGAGCATGAAGAAAGGCATCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGTAAAAATACCT---AGTGTTTTTTGAAAATATTTCTAGGCATTAAAAGCATTTTTGAAGAAAAAT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||| ||||||||||| |||||||||||||||||||  |||||||  |||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| |||||| ||| |   |||| |||| ||||||| |||       |||||||| |||||  |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|1104664060|ref|XM_002268145.4|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100251137), transcript variant X2, mRNA</Hit_def>
+  <Hit_accession>XM_002268145</Hit_accession>
+  <Hit_len>2428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.558</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>6.06643e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>168</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGCTGGTTCGGCTCGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGTGTGAATGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1104664055|ref|XM_010663768.2|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100251137), transcript variant X1, mRNA</Hit_def>
+  <Hit_accession>XM_010663768</Hit_accession>
+  <Hit_len>2427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>521.558</Hsp_bit-score>
+      <Hsp_score>577</Hsp_score>
+      <Hsp_evalue>6.06643e-143</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>477</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>302</Hsp_identity>
+      <Hsp_positive>302</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGCTGGTTCGGCTCGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGTGTGAATGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | |||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|371534664|gb|JN858957.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanine ammonia-lyase (PAL) mRNA, complete cds</Hit_def>
+  <Hit_accession>JN858957</Hit_accession>
+  <Hit_len>2241</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>517.05</Hsp_bit-score>
+      <Hsp_score>572</Hsp_score>
+      <Hsp_evalue>7.39042e-142</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>484</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>301</Hsp_identity>
+      <Hsp_positive>301</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTCGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCTATCGCTGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||| ||||| ||||||||||||||||||||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|1104658681|ref|XM_010663773.2|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100252889), mRNA</Hit_def>
+  <Hit_accession>XM_010663773</Hit_accession>
+  <Hit_len>2411</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.114</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>6.92179e-136</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>308</Hsp_query-to>
+      <Hsp_hit-from>191</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>295</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>308</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCA</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGACGTTGAAGGGAAGTCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCAGCTCGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCAATCGCCGGGCGGGAGGGGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCAGGCGTGAAGGCGAGCAGTGATTGGGTGATGGAGAGCATGAAGAAAGGCATCGACAGCTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||| |||||||||||||||||||||||||||| |||||||| ||||||||||| |||||||||||||||||||  |||||||  |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|1104664069|ref|XM_003633937.3|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase-like (LOC100256293), mRNA</Hit_def>
+  <Hit_accession>XM_003633937</Hit_accession>
+  <Hit_len>2538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.999</Hsp_bit-score>
+      <Hsp_score>542</Hsp_score>
+      <Hsp_evalue>1.02728e-133</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>207</Hsp_hit-from>
+      <Hsp_hit-to>517</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>295</Hsp_identity>
+      <Hsp_positive>295</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTTGGTGGTGAAACGCTTACGATATCGCAGGTGGCGGCTATCGCGGGGCGGGAGGAGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| |||||||| ||||||||||||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1104658705|ref|XM_002267917.4|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100266593), mRNA</Hit_def>
+  <Hit_accession>XM_002267917</Hit_accession>
+  <Hit_len>2436</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.491</Hsp_bit-score>
+      <Hsp_score>537</Hsp_score>
+      <Hsp_evalue>4.36813e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>219</Hsp_hit-from>
+      <Hsp_hit-to>529</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>294</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTTGGTGGTGAAACGCTTACGATATCGCAAGTGGCGGCTATCGCGGGGCGGGAGGAGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| |||||||| |||||||| |||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1847860342|ref|XM_034854439.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase-like (LOC117933075), mRNA</Hit_def>
+  <Hit_accession>XM_034854439</Hit_accession>
+  <Hit_len>2385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>480.982</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>5.32147e-131</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>516</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>GGCAGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTAAAGCGCATGGTGGCAGAGTACCGGAAGCCGGTGGTTCGGCTTGGTGGTGAAACACTTACGATATCGCAAGTGGCGGCTATCGCGGGGCGGGAGGAGGATGTGAGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAGGGCACCGATAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||| |||||| |||||||||| ||||||||||||||||| |||||||||||||| ||||||||||||||||| |||||||| |||||||| || ||||| |||||||| |||||||||||||| |||||||||| ||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123660846|emb|AM440804.1|</Hit_id>
+  <Hit_def>Vitis vinifera, whole genome shotgun sequence, contig VV78X140156.6, clone ENTAV 115</Hit_def>
+  <Hit_accession>AM440804</Hit_accession>
+  <Hit_len>14138</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.342</Hsp_bit-score>
+      <Hsp_score>508</Hsp_score>
+      <Hsp_evalue>1.7396e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>2887</Hsp_hit-from>
+      <Hsp_hit-to>3205</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>293</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGTAAAATTAC</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGAGTTGAAGGGGAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTGGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCGATCGCCGGGCGGGAGGAGGATGTGACTGTGGAGTTGTCGGAGGCGGCGAGAGAAGGCGTGAAGGCGAGCAGTGACTGGGTGATGGAGAGCATGAACAAGGGTACTGACAGCTATGGTGTCACCACTGGATTTGGTGCGACTTCACATAGGAGAACCAAAGAAGGTGGTGCCCTTCAGAAGGAGCTTATTAGGTAAAACTAC</Hsp_hseq>
+      <Hsp_midline>||||||||||  ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||| ||||||||||||||||| |||||||||||||||| |||||||  |||||||||||||||| |||||||||  |||||||| ||||||||||| ||||||||||||||||||| ||| || |||||||||||||||||||||||||| |||||||| ||||||||||||||||||||| ||||||||||||||||||||||||| || | |||||| |||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|1847911003|ref|XM_034837921.1|</Hit_id>
+  <Hit_def>PREDICTED: Vitis riparia phenylalanine ammonia-lyase (LOC117920417), mRNA</Hit_def>
+  <Hit_accession>XM_034837921</Hit_accession>
+  <Hit_len>2414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>3.14526e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>193</Hsp_hit-from>
+      <Hsp_hit-to>498</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGCGTTGAAGGGGAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTAGTTCGGCTGGGTGGTGAGACGCTTACGATATCGCAGGTGGCGGCGATCGCAGCGCGGGAGGAGGATGTGACTGTGGAGTTGTCGGAGGCGGCGAGAGAAGGCGTGAAGGCGAGCAGTGACTGGGTGATGGAGAGCATGAACAAGGGTACTGACAGCTATGGTGTCACCACTGGATTTGGTGCGACTTCACATAGGAGAACCAAAGAAGGTGGTGCCCTTCAGAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||||||||| ||||||||||||||||| ||||| | |||||||| |||||||  |||||||||||||||| |||||||||  |||||||| ||||||||||| ||||||||||||||||||| ||| || |||||||||||||||||||||||||| |||||||| ||||||||||||||||||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1105498837|ref|XM_002281763.4|</Hit_id>
+  <Hit_def>PREDICTED: Vitis vinifera phenylalanine ammonia-lyase (LOC100241377), mRNA</Hit_def>
+  <Hit_accession>XM_002281763</Hit_accession>
+  <Hit_len>2428</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>3.14526e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>205</Hsp_hit-from>
+      <Hsp_hit-to>510</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGAGTTGAAGGGGAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTGGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCGATCGCCGGGCGGGAGGAGGATGTGACTGTGGAGTTGTCGGAGGCGGCGAGAGAAGGCGTGAAGGCGAGCAGTGACTGGGTGATGGAGAGCATGAACAAGGGTACTGACAGCTATGGTGTCACCACTGGATTTGGTGCGACTTCACATAGGAGAACCAAAGAAGGTGGTGCCCTTCAGAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||  ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||| ||||||||||||||||| |||||||||||||||| |||||||  |||||||||||||||| |||||||||  |||||||| ||||||||||| ||||||||||||||||||| ||| || |||||||||||||||||||||||||| |||||||| ||||||||||||||||||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1024273258|gb|KU162974.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanine ammonia-lyase 2 (PAL2) mRNA, complete cds</Hit_def>
+  <Hit_accession>KU162974</Hit_accession>
+  <Hit_len>2133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>3.14526e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGAGTTGAAGGGGAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTGGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCGATCGCCGGGCGGGAGGCGGATGTGACTGTGGAGTTGTCGGAGGCGGCGAGAGAAGGCGTGAAGGCGAGCAGTGACTGGGTGATGGAGAGCATGAACAAGGGTACTGACAGCTATGGTGTCACCACTGGATTTGGTGCGACTTCACATAGGAGAACCAAAGAAGGTGGTGCCCTTCAGAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||  ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||| ||||||||||||||||| |||||||||||||||| |||||||  |||||||||||||||| |||||||||  |||||||| ||||||||||| ||||||||||||||||||| ||| || |||||||||||||||||||||||||| |||||||| ||||||||||||||||||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|349704332|emb|FQ394760.1|</Hit_id>
+  <Hit_def>Vitis vinifera clone SS0AFA1YB01</Hit_def>
+  <Hit_accession>FQ394760</Hit_accession>
+  <Hit_len>2416</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.423</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>3.14526e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>283</Hsp_identity>
+      <Hsp_positive>283</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGAGTTGAAGGGGAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTGGTTCGGCTGGGTGGTGAGACTCTTACGATATCGCAGGTGGCGGCGATCGCCGGGCGGGAGGAGGATGTGACTGTGGAGTTGTCGGAGGCGGCGAGAGAAGGCGTGAAGGCGAGCAGTGACTGGGTGATGGAGAGCATGAACAAGGGTACTGACAGCTATGGTGTCACCACTGGATTTGGTGCGACTTCACATAGGAGAACCAAAGAAGGTGGTGCCCTTCAGAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>||||||||||  ||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||| |||||||| ||||||||||| ||||| ||||||||||||||||| |||||||||||||||| |||||||  |||||||||||||||| |||||||||  |||||||| ||||||||||| ||||||||||||||||||| ||| || |||||||||||||||||||||||||| |||||||| ||||||||||||||||||||| ||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|1024273322|gb|KU162977.1|</Hit_id>
+  <Hit_def>Vitis vinifera phenylalanine ammonia-lyase 15 (PAL15) mRNA, partial cds</Hit_def>
+  <Hit_accession>KU162977</Hit_accession>
+  <Hit_len>1987</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.766</Hsp_bit-score>
+      <Hsp_score>463</Hsp_score>
+      <Hsp_evalue>5.32617e-112</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>239</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>TGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAAGT</Hsp_qseq>
+      <Hsp_hseq>TGTTCAGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACCGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCATCAGGT</Hsp_hseq>
+      <Hsp_midline>||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|1585670226|ref|XM_028253556.1|</Hit_id>
+  <Hit_def>PREDICTED: Camellia sinensis phenylalanine ammonia-lyase-like (LOC114308066), mRNA</Hit_def>
+  <Hit_accession>XM_028253556</Hit_accession>
+  <Hit_len>2513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.876</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>1.33977e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>573</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>GCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GCGGCGGAGTCACTGAAGGGCAGCCATTTGGACGAAGTGAAGCGGATGGTGGCGGAGTTCCGGAAGCCGGTGGTTAGGCTCGGCGGCGAGACCTTGACGATATCTCAGGTGGCGGCGATCGCCGCCCGTGGCGGTGATGTGACAGTGGAGCTTTCGGAGACGGCGAGGGAAGGAGTGAAGGCTAGCAGTGATTGGGTTATGGAGAGCATGAACAAAGGGACTGATAGTTATGGTGTTACTACTGGTTTTGGTGCTACTTCTCATAGGAGGACTAAACAAGGAGGTGCTCTTCAAAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>|| |||||| |  ||||||| ||||||||||| ||||||||||| ||||||||||||| |||||||||||| ||| ||||||| || |||||  | || ||||| ||||||||||| |||||||  || |  || ||||||   |||||| | |||||||||||||| |  || ||||| || |||||||| ||||| ||||||||||||| |||||| ||||| || |||||||| || ||||| |||||||| ||||| |||||||| || |||||||| ||||| ||||| |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1235069825|gb|KY615671.1|</Hit_id>
+  <Hit_def>Camellia sinensis phenylalanine ammonia-lyase (PALc) mRNA, complete cds</Hit_def>
+  <Hit_accession>KY615671</Hit_accession>
+  <Hit_len>2136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>316.876</Hsp_bit-score>
+      <Hsp_score>350</Hsp_score>
+      <Hsp_evalue>1.33977e-81</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>GCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GCGGCGGAGTCACTGAAGGGCAGCCATTTGGACGAAGTGAAGCGGATGGTGGCGGAGTTCCGGAAGCCGGTGGTTAGGCTCGGCGGCGAGACCTTGACGATATCTCAGGTGGCGGCGATCGCCGCCCGTGGCGGTGATGTGACAGTGGAGCTTTCGGAGACGGCGAGGGAAGGAGTGAAGGCTAGCAGTGATTGGGTTATGGAGAGCATGAACAAAGGGACTGATAGTTATGGTGTTACTACTGGTTTTGGTGCTACTTCTCATAGGAGGACTAAACAAGGAGGTGCTCTTCAAAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>|| |||||| |  ||||||| ||||||||||| ||||||||||| ||||||||||||| |||||||||||| ||| ||||||| || |||||  | || ||||| ||||||||||| |||||||  || |  || ||||||   |||||| | |||||||||||||| |  || ||||| || |||||||| ||||| ||||||||||||| |||||| ||||| || |||||||| || ||||| |||||||| ||||| |||||||| || |||||||| ||||| ||||| |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|1818939399|gb|MN207176.1|</Hit_id>
+  <Hit_def>Camellia sinensis var. sinensis PALc mRNA, complete cds</Hit_def>
+  <Hit_accession>MN207176</Hit_accession>
+  <Hit_len>2409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>312.367</Hsp_bit-score>
+      <Hsp_score>345</Hsp_score>
+      <Hsp_evalue>5.69683e-80</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>383</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>305</Hsp_align-len>
+      <Hsp_qseq>GCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GCGGCGGAGTCACTGAAGGGCAGCCATTTGGACGAAGTGAAGCGGATGGTGGCGGAGTTCCGGAAGCCGGTGGTTAGGCTCGGCGGCGAGACCTTGACGATATCTCAGGTGGCAGCGATCGCCGCCCGTGGCGGTGATGTGACGGTGGAGCTTTCGGAGACGGCGAGGGAAGGAGTGAAGGCTAGCAGTGATTGGGTTATGGAGAGCATGAACAAAGGGACTGATAGTTATGGTGTTACTACTGGTTTTGGTGCTACTTCTCATAGGAGGACTAAACAAGGAGGTGCTCTTCAAAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>|| |||||| |  ||||||| ||||||||||| ||||||||||| ||||||||||||| |||||||||||| ||| ||||||| || |||||  | || ||||| |||||||| || |||||||  || |  || ||||||   |||||| | |||||||||||||| |  || ||||| || |||||||| ||||| ||||||||||||| |||||| ||||| || |||||||| || ||||| |||||||| ||||| |||||||| || |||||||| ||||| ||||| |||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|1913240777|emb|LR877374.1|</Hit_id>
+  <Hit_def>Gmelina arborea mRNA for Phenylalanine ammonia-lyase (PAL gene)</Hit_def>
+  <Hit_accession>LR877374</Hit_accession>
+  <Hit_len>2133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>309.662</Hsp_bit-score>
+      <Hsp_score>342</Hsp_score>
+      <Hsp_evalue>1.98839e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>380</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>252</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCGGCGGAGTCGCTTCAAGGCAGCCACCTTGATGAAGTGAAGCGCATGGTGGAGGAGTACCGGAAGCCGGTGGTCCGCCTGGGAGGCGAGACGCTGACGATAGCGCAGGTGGCGGCGGTGGCCGCCCGGGACGCGGCGGTGAAGGTGGAGCTGGCGGAGGCTGCGAGGGAGGGCGTGAAGGCGAGCAGTGATTGGGTGATGGAGAGCATGAACAAAGGGACAGATAGTTATGGTGTCACAACTGGCTTTGGTGCAACTTCACATAGGAGGACCAAACAGGGTGGCGCCTTACAGAAGGAGCTTAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| || |  | || |||||  | |||||||||||||||||||||| |||||||||||||||||| || || || || || |||||||| || ||| |||||||||||||  | ||||  ||||| | ||  |||   |||||| || ||||| | ||||| | ||||||||| ||||||||||| ||||||||||||||||||| |||||| || || || ||||||||||| ||||| |||||||| |||||||||||||| |||||||| ||||| ||| | ||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|854930856|gb|KP711310.1|</Hit_id>
+  <Hit_def>Betula platyphylla phenylalanine ammonia-lyase 2 (PAL2) mRNA, complete cds</Hit_def>
+  <Hit_accession>KP711310</Hit_accession>
+  <Hit_len>2127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>305.154</Hsp_bit-score>
+      <Hsp_score>337</Hsp_score>
+      <Hsp_evalue>8.45484e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>374</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>251</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGGGTGTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCTGCGGAGGCACTCAAGGGCAGTCACTTGGAGGAGGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCCGTCGTCCGGCTCGGCGGCGAGACCTTGACGATATCACAGGTGGCAGCTATTGCCACGTGTGACTCCGGTATCAAGGTGGAGCTGTCGGAGTCGGCAAGGGCGGGCGTGAAGGCCAGCAGTGATTGGGTGATGGACAGCATGACGGCAGGGACTGATAGTTATGGTGTCACCACTGGGTTTGGTGCTACTTCACATAGGCGAACCAAACAAGGCGCTGCCCTTCAGAAGGAGCTGAT</Hsp_hseq>
+      <Hsp_midline>|||||||||| |  | ||||| || || ||||| || |||||||||||||||||||||||||||||||| || || |||||||| || |||||  | || ||||| |||||||| ||||| |||  | | ||    | | |    |||||| |||||||| |||| || ||||||||||| || |||||||| ||||||||||| |||||||    ||| ||||| || |||||||||||||||||||||||||| |||||||||||| ||||||||||||| | |||||||||||||||||| ||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1040871190|ref|XM_017390637.1|</Hit_id>
+  <Hit_def>PREDICTED: Daucus carota subsp. sativus phenylalanine ammonia-lyase 3 (LOC108217754), mRNA</Hit_def>
+  <Hit_accession>XM_017390637</Hit_accession>
+  <Hit_len>2569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>302.449</Hsp_bit-score>
+      <Hsp_score>334</Hsp_score>
+      <Hsp_evalue>2.95103e-77</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>326</Hsp_hit-from>
+      <Hsp_hit-to>634</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>GGCTGCGGAGACGTTGAAGGGAAGCCATTTGGATGAAGTGAAGCGCATGGTGGCGGAGTACCGGAAGCCGGTTGTTCGGCTCGGTGGTGAGACGCTTACCATATCGCAGGTGGCGGCTATCGCCGGGCGGGAGGGGGATGTGG-GT----GTGGAGTTGTCGGAGACGGCGAGAGCGGGCGTGAACGCGAGCAGTGAGTGGGTGATGGAGAGCATGAGCAAAGGCACTGACAGCTATGGTGTCACCACTGGGTTTGGTGCCACTTCACATAGGAGAACCAAACAAGGTGGTGCCCTTCAGAAGGAGCTCAT</Hsp_qseq>
+      <Hsp_hseq>GGCGGCGGAGGCGCTGAAGGGGAGCCATTTGGAGGAGGTGAAGAGGATGGTGGCGGAGTACAGGAAGCCGGTGGTGAAGCTGGGCGGAGAGACGCTGACGATATCGCAGGTGGCGGCGATCTC--GGCGAGAGATGATAGTGGCGTCAAGGTGGAGCTCTCGGAGGCGGCGAGAGCCGGCGTTAAGGCGAGTAGCGACTGGGTGATGGAGAGCATGAACAAAGGGACGGATAGTTATGGTGTCACTACTGGCTTTGGTGCTACTTCTCATAGGAGGACTAAGCAAGGTGGCGCTCTTCAGAAGGAGCTCAT</Hsp_hseq>
+      <Hsp_midline>||| |||||| || ||||||| ||||||||||| || |||||| | ||||||||||||||| |||||||||| ||   ||| || || |||||||| || ||||||||||||||||| ||| |  |||| |||  |   |||| ||    |||||| | |||||| |||||||||| ||||| || ||||| || || ||||||||||||||||||| |||||| || || || ||||||||||| ||||| |||||||| ||||| |||||||| || || |||||||| || |||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>77959183</Statistics_db-num>
+      <Statistics_db-len>1657696756</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
