@@ -17,7 +17,7 @@ def q_matrix(dist):
     for i in range(n):
         for j in range(n):
             if i != j:
-                q[i][j] = (n - 2) * dist[i][j] - (np.sum(dist[i]) + np.sum(dist[j]))
+                q[i][j] = (n - 2) * dist[i][j] - np.sum(dist[i]) - np.sum(dist[j])
     return q
 
 
@@ -37,7 +37,7 @@ def min_index(q):
 def pair_distance(dist, ab):
     a, b = ab[0], ab[1]
     n = len(dist)
-    delta_a = 0.5 * dist[a][b] + 1 / (2 * n - 4) * (np.sum(dist[a]) - np.sum(dist[b]))
+    delta_a = 0.5 * dist[a][b] + 1 / (2 *n - 4) * (np.sum(dist[a]) - np.sum(dist[b]))
     delta_b = dist[a][b] - delta_a
 
     return float(delta_a), float(delta_b)
@@ -93,7 +93,7 @@ def build_graph(dist, names):
     g = nx.Graph()
     g.add_nodes_from(names)
 
-    while len(dist[0]) > 2:
+    while len(dist[0]) != 2:
         q = q_matrix(dist)
         min_idx = min_index(q)
         pair_dist = pair_distance(dist, min_idx)
@@ -117,8 +117,7 @@ def main():
                    [9, 10, 8, 0, 3],
                    [8, 9, 7, 3, 0]]
     g = build_graph(test_matrix, names=list('abcde'))
-    pos = graphviz_layout(g, prog='dot')
-    nx.draw(g, pos)
+    nx.draw(g)
     plt.show()
 
 

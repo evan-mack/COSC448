@@ -1,0 +1,10 @@
+Square of graphs
+    -trace of a Graph^2/2 shows number of edges (trace = diagonal of a matrix)
+Kth tree root
+
+
+Phylogenic trees (nodes)
+3 phenomenons that define evolution
+Speciation
+Duplication
+Horizontal or lateral gene transfer event

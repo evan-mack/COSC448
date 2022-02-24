@@ -45,14 +45,14 @@ class SuffixTree(object):
                 else:
                     cur.out[s[j]] = self.Node(s[j:]) #Exited at node, making new edge from node
 
-    def printTree(self, Node):
-        if Node == None:
+    def printTree(self, cur):
+        if cur == None:
             cur = self.root
         while cur.out is not None:
             for s in cur.out:
                if s in cur.out:
                    print(s)
-                   cur = cur.out[s]
+                   cur = cur.out
     
     def followPath(self, s):
         cur = self.root
